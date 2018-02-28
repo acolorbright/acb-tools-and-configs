@@ -1,0 +1,19 @@
+{
+  "name": "browserslist-config-acb",
+  "version": "1.0.0",
+  "description": "ACB's browserslist config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acolorbright/browserslist-config-acb.git"
+  },
+  "keywords": [
+    "browserslist",
+    "browserslist-config"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acolorbright/browserslist-config-acb/issues"
+  },
+  "homepage": "https://github.com/acolorbright/browserslist-config-acb#readme"
+}
