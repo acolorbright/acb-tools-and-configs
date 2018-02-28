@@ -5,13 +5,13 @@
 Via npm:
 
 ```
-npm install --save-dev @acolorbright/browserslist-config#v1.0
+npm install --save-dev acolorbright/browserslist-config#v1.0
 ```
 
 Via yarn:
 
 ```
-yarn add --dev @acolorbright/browserslist-config#v1.0
+yarn add --dev acolorbright/browserslist-config#v1.0
 ```
 
 ## Usage
