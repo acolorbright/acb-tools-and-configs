@@ -11,7 +11,7 @@ We no longer support IE11.
 Via npm:
 
 ```
-npm install --save-dev acolorbright/browserslist-config#1.0
+npm install --save-dev acolorbright/browserslist-config#v2.0
 ```
 
 ## Usage
