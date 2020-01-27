@@ -1,17 +1,17 @@
 # A Color Bright's browserslist config
 
+## Introduction
+
+Our standard level of browser support is the last two versions of all major browsers.
+
+We no longer support IE11.
+
 ## Installation
 
 Via npm:
 
 ```
-npm install --save-dev acolorbright/browserslist-config#v1.0
-```
-
-Via yarn:
-
-```
-yarn add --dev acolorbright/browserslist-config#v1.0
+npm install --save-dev acolorbright/browserslist-config#1.0
 ```
 
 ## Usage
