@@ -6,10 +6,6 @@
   "scripts": {
     "test": "eslint ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/acolorbright/eslint-config-acb-react-typescript.git"
-  },
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -20,11 +16,8 @@
     "prettier"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/acolorbright/eslint-config-acb-react-typescript/issues"
-  },
   "dependencies": {
-    "eslint-config-acb-base": "github:acolorbright/eslint-config-acb-base#v4.0.1",
+    "eslint-config-acb-base": "4.0.1",
     "eslint-config-airbnb": "18.0.1",
     "eslint-config-prettier": "7.1.0"
   },
