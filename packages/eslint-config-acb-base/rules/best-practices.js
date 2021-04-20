@@ -28,11 +28,9 @@ module.exports = {
 
     // Enforce default clauses in switch statements to be last
     // https://eslint.org/docs/rules/default-case-last
-    // TODO: enable, semver-minor, when eslint v7 is required (which is a major)
     'default-case-last': 'off',
 
     // https://eslint.org/docs/rules/default-param-last
-    // TODO: enable, semver-minor, when eslint v6.4 is required (which is a major)
     'default-param-last': 'off',
 
     // encourages use of dot notation whenever possible
@@ -48,7 +46,6 @@ module.exports = {
 
     // Require grouped accessor pairs in object literals and classes
     // https://eslint.org/docs/rules/grouped-accessor-pairs
-    // TODO: enable in next major, altho the guide forbids getters/setters anyways
     'grouped-accessor-pairs': 'off',
 
     // make sure for-in loops have an if statement
@@ -70,7 +67,6 @@ module.exports = {
 
     // Disallow returning value in constructor
     // https://eslint.org/docs/rules/no-constructor-return
-    // TODO: enable, semver-major
     'no-constructor-return': 'off',
 
     // disallow division operators explicitly at beginning of regular expression
@@ -182,7 +178,6 @@ module.exports = {
 
     // Disallow \8 and \9 escape sequences in string literals
     // https://eslint.org/docs/rules/no-nonoctal-decimal-escape
-    // todo: semver-major: enable when v7.14 is required
     'no-nonoctal-decimal-escape': 'off',
 
     // disallow use of (old style) octal literals
@@ -322,7 +317,6 @@ module.exports = {
     'prefer-named-capture-group': 'off',
 
     // https://eslint.org/docs/rules/prefer-regex-literals
-    // TODO; enable, semver-minor, once eslint v6.4 is required (which is a major)
     'prefer-regex-literals': 'off',
 
     // require use of the second argument for parseInt()
@@ -344,6 +338,6 @@ module.exports = {
     'wrap-iife': ['error', 'outside', { functionPrototypeMethods: false }],
 
     // require or disallow Yoda conditions
-    yoda: 'error'
+    yoda: 'error',
   },
 };
