@@ -14,7 +14,7 @@ module.exports = {
     'media-feature-name-disallowed-list': ['max-width'],
     'media-feature-name-no-vendor-prefix': true,
     'media-feature-name-value-allowed-list': {
-      'min-width': ['/^[0-9]*em$/'],
+      'min-width': ['/^[0-9]+em$/'],
     },
     'number-leading-zero': 'always',
     'number-no-trailing-zeros': true,
