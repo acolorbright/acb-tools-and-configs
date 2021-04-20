@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 const assign = require('object.assign')
 const baseStyleRules = require('eslint-config-acb-base/rules/style').rules
 
@@ -503,24 +504,25 @@ module.exports = {
     'react/no-unsafe': 'off',
 
     // Enforce shorthand or standard form for React fragments
-    // https://github.com/yannickcr/eslint-plugin-react/blob/bc976b837abeab1dffd90ac6168b746a83fc83cc/docs/rules/jsx-fragments.m  
+    // https://github.com/yannickcr/eslint-plugin-react/blob/bc976b837abeab1dffd90ac6168b746a83fc83cc/docs/rules/jsx-fragments.m
     // Enforce that props are read-only
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-read-only-props.md
     'react/prefer-read-only-props': 'off',
 
     // Prevent usage of `javascript:` URLs
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-script-url.md
-    // TODO: enable, semver-major
-    'react/jsx-no-script-url': ['off', [
-      {
-        name: 'Link',
-        props: ['to'],
-      },
-    ]],
+    'react/jsx-no-script-url': [
+      'off',
+      [
+        {
+          name: 'Link',
+          props: ['to'],
+        },
+      ],
+    ],
 
     // Disallow unnecessary fragments
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-useless-fragment.md
-    // TODO: enable, semver-major
     'react/jsx-no-useless-fragment': 'off',
 
     // Prevent adjacent inline elements not separated by whitespace
@@ -532,10 +534,13 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/function-component-definition.md
     // TODO: enable! semver-minor, but do it in a major to be safe
     // TODO: investigate if setting namedComponents to expression vs declaration is problematic
-    'react/function-component-definition': ['off', {
-      namedComponents: 'function-expression',
-      unnamedComponents: 'function-expression',
-    }],
+    'react/function-component-definition': [
+      'off',
+      {
+        namedComponents: 'function-expression',
+        unnamedComponents: 'function-expression',
+      },
+    ],
 
     // Enforce a new line after jsx elements and expressions
     // https://github.com/yannickcr/eslint-plugin-react/blob/e2eaadae316f9506d163812a09424eb42698470a/docs/rules/jsx-newline.md
@@ -543,7 +548,6 @@ module.exports = {
 
     // Prevent react contexts from taking non-stable values
     // https://github.com/yannickcr/eslint-plugin-react/blob/e2eaadae316f9506d163812a09424eb42698470a/docs/rules/jsx-no-constructed-context-values.md
-    // TODO: enable, semver-minor
     'react/jsx-no-constructed-context-values': 'off',
 
     // Enforce linebreaks in curly braces in JSX attributes and expressions.
@@ -570,58 +574,15 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-spreading.md
     'react/jsx-props-no-spreading': 0,
 
-    // Enforce that props are read-only
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-read-only-props.md
-    'react/prefer-read-only-props': 'off',
-
-    // Prevent usage of `javascript:` URLs
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-script-url.md
-    // TODO: enable, semver-major
-    'react/jsx-no-script-url': ['off', [
-      {
-        name: 'Link',
-        props: ['to'],
-      },
-    ]],
-
-    // Disallow unnecessary fragments
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-useless-fragment.md
-    // TODO: enable, semver-major
-    'react/jsx-no-useless-fragment': 'off',
-
-    // Prevent adjacent inline elements not separated by whitespace
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-adjacent-inline-elements.md
-    // TODO: enable? semver-major
-    'react/no-adjacent-inline-elements': 'off',
-
-    // Enforce a specific function type for function components
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/function-component-definition.md
-    // TODO: enable! semver-minor, but do it in a major to be safe
-    // TODO: investigate if setting namedComponents to expression vs declaration is problematic
-    'react/function-component-definition': ['off', {
-      namedComponents: 'function-expression',
-      unnamedComponents: 'function-expression',
-    }],
-
-    // Enforce a new line after jsx elements and expressions
-    // https://github.com/yannickcr/eslint-plugin-react/blob/e2eaadae316f9506d163812a09424eb42698470a/docs/rules/jsx-newline.md
-    'react/jsx-newline': 'off',
-
-    // Prevent react contexts from taking non-stable values
-    // https://github.com/yannickcr/eslint-plugin-react/blob/e2eaadae316f9506d163812a09424eb42698470a/docs/rules/jsx-no-constructed-context-values.md
-    // TODO: enable, semver-minor
-    'react/jsx-no-constructed-context-values': 'off',
-
     // Prevent creating unstable components inside components
     // https://github.com/yannickcr/eslint-plugin-react/blob/c2a790a3472eea0f6de984bdc3ee2a62197417fb/docs/rules/no-unstable-nested-components.md
-    // TODO: enable, semver-major
     'react/no-unstable-nested-components': 'off',
   },
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.js', '.jsx', '.json']
-      }
+        extensions: ['.js', '.jsx', '.json'],
+      },
     },
     react: {
       pragma: 'React',
@@ -632,5 +593,5 @@ module.exports = {
       'exact', // https://www.npmjs.com/package/prop-types-exact
       'Object.freeze', // https://tc39.github.io/ecma262/#sec-object.freeze
     ],
-  }
+  },
 }
