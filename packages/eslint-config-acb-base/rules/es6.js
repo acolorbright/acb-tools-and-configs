@@ -7,8 +7,8 @@ module.exports = {
     sourceType: 'module',
     ecmaFeatures: {
       generators: false,
-      objectLiteralDuplicateProperties: false
-    }
+      objectLiteralDuplicateProperties: false,
+    },
   },
 
   rules: {
@@ -41,80 +41,80 @@ module.exports = {
     // https://eslint.org/docs/rules/no-confusing-arrow
     'no-confusing-arrow': 0,
 
-     // disallow modifying variables that are declared using const
-     'no-const-assign': 'error',
+    // disallow modifying variables that are declared using const
+    'no-const-assign': 'error',
 
-     // disallow duplicate class members
-     // https://eslint.org/docs/rules/no-dupe-class-members
-     'no-dupe-class-members': 'error',
- 
-     // disallow importing from the same path more than once
-     // https://eslint.org/docs/rules/no-duplicate-imports
-     // replaced by https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md
-     'no-duplicate-imports': 'off',
- 
-     // disallow symbol constructor
-     // https://eslint.org/docs/rules/no-new-symbol
-     'no-new-symbol': 'error',
- 
-     // Disallow specified names in exports
-     // https://eslint.org/docs/rules/no-restricted-exports
-     // TODO enable, semver-minor, once eslint v7 is required (which is major)
-     'no-restricted-exports': ['off', {
-       restrictedNamedExports: [
-         'default', // use `export default` to provide a default export
-         'then', // this will cause tons of confusion when your module is dynamically `import()`ed
-       ],
-     }],
- 
-     // disallow specific imports
-     // https://eslint.org/docs/rules/no-restricted-imports
-     'no-restricted-imports': ['off', {
-       paths: [],
-       patterns: []
-     }],
- 
-     // disallow to use this/super before super() calling in constructors.
-     // https://eslint.org/docs/rules/no-this-before-super
-     'no-this-before-super': 'error',
- 
-     // disallow useless computed property keys
-     // https://eslint.org/docs/rules/no-useless-computed-key
-     'no-useless-computed-key': 'error',
- 
-     // disallow unnecessary constructor
-     // https://eslint.org/docs/rules/no-useless-constructor
-     'no-useless-constructor': 'error',
- 
-     // disallow renaming import, export, and destructured assignments to the same name
-     // https://eslint.org/docs/rules/no-useless-rename
-     'no-useless-rename': ['error', {
-       ignoreDestructuring: false,
-       ignoreImport: false,
-       ignoreExport: false,
-     }],
- 
-     // require let or const instead of var
-     'no-var': 'error',
- 
-     // require method and property shorthand syntax for object literals
-     // https://eslint.org/docs/rules/object-shorthand
-     'object-shorthand': ['error', 'always', {
-       ignoreConstructors: false,
-       avoidQuotes: true,
-     }],
- 
-     // suggest using arrow functions as callbacks
-     'prefer-arrow-callback': ['error', {
-       allowNamedFunctions: false,
-       allowUnboundThis: true,
-     }],
- 
-     // suggest using of const declaration for variables that are never modified after declared
-     'prefer-const': ['error', {
-       destructuring: 'any',
-       ignoreReadBeforeAssign: true,
-     }],
+    // disallow duplicate class members
+    // https://eslint.org/docs/rules/no-dupe-class-members
+    'no-dupe-class-members': 'error',
+
+    // disallow importing from the same path more than once
+    // https://eslint.org/docs/rules/no-duplicate-imports
+    // replaced by https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md
+    'no-duplicate-imports': 'off',
+
+    // disallow symbol constructor
+    // https://eslint.org/docs/rules/no-new-symbol
+    'no-new-symbol': 'error',
+
+    // Disallow specified names in exports
+    // https://eslint.org/docs/rules/no-restricted-exports
+    // TODO enable, semver-minor, once eslint v7 is required (which is major)
+    'no-restricted-exports': ['off', {
+      restrictedNamedExports: [
+        'default', // use `export default` to provide a default export
+        'then', // this will cause tons of confusion when your module is dynamically `import()`ed
+      ],
+    }],
+
+    // disallow specific imports
+    // https://eslint.org/docs/rules/no-restricted-imports
+    'no-restricted-imports': ['off', {
+      paths: [],
+      patterns: [],
+    }],
+
+    // disallow to use this/super before super() calling in constructors.
+    // https://eslint.org/docs/rules/no-this-before-super
+    'no-this-before-super': 'error',
+
+    // disallow useless computed property keys
+    // https://eslint.org/docs/rules/no-useless-computed-key
+    'no-useless-computed-key': 'error',
+
+    // disallow unnecessary constructor
+    // https://eslint.org/docs/rules/no-useless-constructor
+    'no-useless-constructor': 'error',
+
+    // disallow renaming import, export, and destructured assignments to the same name
+    // https://eslint.org/docs/rules/no-useless-rename
+    'no-useless-rename': ['error', {
+      ignoreDestructuring: false,
+      ignoreImport: false,
+      ignoreExport: false,
+    }],
+
+    // require let or const instead of var
+    'no-var': 'error',
+
+    // require method and property shorthand syntax for object literals
+    // https://eslint.org/docs/rules/object-shorthand
+    'object-shorthand': ['error', 'always', {
+      ignoreConstructors: false,
+      avoidQuotes: true,
+    }],
+
+    // suggest using arrow functions as callbacks
+    'prefer-arrow-callback': ['error', {
+      allowNamedFunctions: false,
+      allowUnboundThis: true,
+    }],
+
+    // suggest using of const declaration for variables that are never modified after declared
+    'prefer-const': ['error', {
+      destructuring: 'any',
+      ignoreReadBeforeAssign: true,
+    }],
 
     // Prefer destructuring from arrays and objects
     // https://eslint.org/docs/rules/prefer-destructuring
@@ -180,6 +180,6 @@ module.exports = {
 
     // enforce spacing around the * in yield* expressions
     // https://eslint.org/docs/rules/yield-star-spacing
-    'yield-star-spacing': ['error', 'after']
+    'yield-star-spacing': ['error', 'after'],
   },
 };

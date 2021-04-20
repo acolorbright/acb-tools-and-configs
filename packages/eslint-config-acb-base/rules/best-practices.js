@@ -72,7 +72,7 @@ module.exports = {
     // disallow division operators explicitly at beginning of regular expression
     // https://eslint.org/docs/rules/no-div-regex
     'no-div-regex': 'off',
-    
+
     // disallow else after a return in an if
     // https://eslint.org/docs/rules/no-else-return
     'no-else-return': 1,
@@ -84,7 +84,7 @@ module.exports = {
         'arrowFunctions',
         'functions',
         'methods',
-      ]
+      ],
     }],
 
     // disallow empty destructuring patterns
@@ -184,7 +184,6 @@ module.exports = {
     'no-octal': 'error',
 
     // disallow use of octal escape sequences in string literals, such as
-    // var foo = 'Copyright \251';
     'no-octal-escape': 'error',
 
     // disallow reassignment of function parameters

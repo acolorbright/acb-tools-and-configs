@@ -4,7 +4,7 @@ module.exports = {
   },
   parserOptions: {
     ecmaVersion: 6,
-    sourceType: 'module'
+    sourceType: 'module',
   },
   plugins: [
     'import',
@@ -12,8 +12,8 @@ module.exports = {
   settings: {
     'import/resolver': {
       node: {
-        extensions: ['.mjs', '.js', '.json']
-      }
+        extensions: ['.mjs', '.js', '.json'],
+      },
     },
     'import/extensions': [
       '.js',
@@ -48,7 +48,7 @@ module.exports = {
     // Require a newline after the last import/require in a group
     'import/newline-after-import': ['error', { count: 1 }],
 
-     // Helpful warnings:
+    // Helpful warnings:
 
     // disallow invalid exports, e.g. multiple defaults
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/export.md
@@ -92,7 +92,7 @@ module.exports = {
         '**/protractor.conf.js', // protractor config
         '**/protractor.conf.*.js', // protractor config
         '**/karma.conf.js', // karma config
-        '**/.eslintrc.js' // eslint config
+        '**/.eslintrc.js', // eslint config
       ],
       optionalDependencies: false,
     }],

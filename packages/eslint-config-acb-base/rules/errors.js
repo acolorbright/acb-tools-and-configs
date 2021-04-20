@@ -40,7 +40,6 @@ module.exports = {
 
     // Disallow duplicate conditions in if-else-if chains
     // https://eslint.org/docs/rules/no-dupe-else-if
-    // TODO: enable, semver-major
     'no-dupe-else-if': 'off',
 
     // disallow duplicate keys when creating object literals
@@ -138,7 +137,7 @@ module.exports = {
     // https://eslint.org/docs/rules/no-unreachable-loop
     // TODO: enable, semver-minor, once eslint v7.3 is required (which is major)
     'no-unreachable-loop': ['off', {
-      ignore: [], // WhileStatement, DoWhileStatement, ForStatement, ForInStatement, ForOfStatement
+      ignore: [],
     }],
 
     // disallow return/throw/break/continue inside finally blocks
@@ -178,5 +177,5 @@ module.exports = {
     // ensure that the results of typeof are compared against a valid string
     // https://eslint.org/docs/rules/valid-typeof
     'valid-typeof': ['error', { requireStringLiterals: true }],
-  }
+  },
 };
