@@ -10,7 +10,7 @@
   "author": "A Color Bright GmbH",
   "devDependencies": {
     "eslint": "7.24.0",
-    "eslint-config-acb-base": "github:acolorbright/eslint-config-acb-base#v3.1.0",
+    "eslint-config-acb-base": "4.0.1",
     "eslint-plugin-extra-rules": "0.8.1",
     "eslint-plugin-import": "2.22.1"
   },
