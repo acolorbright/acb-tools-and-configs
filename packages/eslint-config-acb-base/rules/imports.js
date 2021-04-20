@@ -45,7 +45,7 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/namespace.md
     'import/namespace': 'off',
 
-    // Enforces having one or more empty lines after the last top-level import statement or require call
+    // Require a newline after the last import/require in a group
     'import/newline-after-import': ['error', { count: 1 }],
 
      // Helpful warnings:
@@ -151,7 +151,7 @@ module.exports = {
       groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
     }],
 
-    // Don't require modules with a single export to use a default export
+    // Require modules with a single export to use a default export
     'import/prefer-default-export': 0,
 
     // Restrict which files can be imported in a given folder

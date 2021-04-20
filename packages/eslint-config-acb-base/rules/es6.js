@@ -37,7 +37,7 @@ module.exports = {
     // https://eslint.org/docs/rules/no-class-assign
     'no-class-assign': 'error',
 
-    // allow arrow functions where they could be confused with comparisons
+    // disallow arrow functions where they could be confused with comparisons
     // https://eslint.org/docs/rules/no-confusing-arrow
     'no-confusing-arrow': 0,
 

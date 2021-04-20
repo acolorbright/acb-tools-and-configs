@@ -13,11 +13,11 @@ module.exports = {
     // specify the maximum cyclomatic complexity allowed in a program
     complexity: ['off', 11],
 
-    // don't enforce that class methods use "this"
+    // enforce that class methods use "this"
     // https://eslint.org/docs/rules/class-methods-use-this
     'class-methods-use-this': 0,
 
-    // don't require return statements to either always or never specify values
+    // require return statements to either always or never specify values
     'consistent-return': 0,
 
     // specify curly brace conventions for all control statements
@@ -193,6 +193,7 @@ module.exports = {
     'no-octal-escape': 'error',
 
     // disallow reassignment of function parameters
+    // disallow parameter object manipulation except for specific exclusions
     // rule: https://eslint.org/docs/rules/no-param-reassign.html
     'no-param-reassign': ['error', { props: false }],
 
@@ -311,9 +312,6 @@ module.exports = {
 
     // disallow use of the with statement
     'no-with': 'error',
-
-    // warn of inconsistent linebreak style for operators
-    'operator-linebreak': 1,
 
     // require using Error objects as Promise rejection reasons
     // https://eslint.org/docs/rules/prefer-promise-reject-errors
