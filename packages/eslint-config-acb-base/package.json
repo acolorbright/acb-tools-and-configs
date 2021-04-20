@@ -4,7 +4,8 @@
   "description": "ACB's base JS ESLint config.",
   "main": "index.js",
   "scripts": {
-    "test": "eslint ."
+    "test": "eslint .",
+    "lint": "eslint --fix ."
   },
   "keywords": [
     "eslint",
