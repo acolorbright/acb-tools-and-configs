@@ -40,3 +40,9 @@ The solution to this is deleting the target package's local `package-lock.json`,
 For more info see the provided links:\
 https://github.com/lerna/lerna/issues/1886#issuecomment-718880049 \
 https://github.com/lfre/lerna-add-remove-issue
+
+### Testing
+
+In order to run eslint tests on all packages run `npx lerna run test`, this runs `npm run test` on each package.
+
+For more info on `lerna run` check (the docs)[https://github.com/lerna/lerna/tree/main/commands/run]
