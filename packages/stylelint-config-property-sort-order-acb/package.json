@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-config-property-sort-order-acb",
+  "name": "@acolorbright/stylelint-config-property-sort-order-acb",
   "version": "1.0.0",
   "description": "Stylelint config for property sort ordering and grouping",
   "main": "index.js",
