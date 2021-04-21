@@ -9,8 +9,8 @@ This config adds empty lines between the SMACSS property groups.
 ## Installation
 
 ```bash
-npm install --save-dev 'acolorbright/stylelint-config-property-sort-order-acb#v1.0.0'
-`````
+npm install --save-dev 'acolorbright/stylelint-config-property-sort-order-acb#v1.0.0' stylelint@13.x
+```
 
 ## Usage
 
