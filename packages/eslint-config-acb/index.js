@@ -13,8 +13,7 @@ module.exports = {
     sourceType: 'module',
   },
   extends: [
-    'eslint-config-airbnb',
-    'eslint-config-acb-base',
+    '@acolorbright/eslint-config-acb-base',
     './rules/control-statements',
     './rules/react',
     './rules/react-a11y',
