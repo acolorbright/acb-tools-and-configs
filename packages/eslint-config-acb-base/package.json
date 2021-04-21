@@ -26,7 +26,6 @@
     "babel-eslint": "10.x",
     "eslint": "6.x",
     "eslint-plugin-extra-rules": "^0.8",
-    // 2.22 is a necessary minimum for 'import/no-cycle': ['error', { maxDepth: '∞' }] in rules/imports.js
     "eslint-plugin-import": "^2.22.1"
   },
   "devDependencies": {
