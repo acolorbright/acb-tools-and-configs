@@ -5,7 +5,7 @@ Stylelint config providing ACB's standard linting setup for styles.
 ## Installation
 
 ```bash
-npm install --save-dev 'acolorbright/stylelint-config-acb#v1.0.2' stylelint@13.x
+npm install --save-dev 'acolorbright/stylelint-config-acb#v1.0.0' stylelint@13.x
 ```
 
 ## Usage
