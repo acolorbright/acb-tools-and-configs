@@ -9,7 +9,7 @@ This config adds empty lines between the SMACSS property groups.
 ## Installation
 
 ```bash
-npm install-peerdeps -D @acolorbright/stylelint-config-property-sort-order-acb && npm install -DE @acolorbright/stylelint-config-property-sort-order-acb@latest
+npx install-peerdeps -D @acolorbright/stylelint-config-property-sort-order-acb && npm install -DE @acolorbright/stylelint-config-property-sort-order-acb@latest
 ```
 
 Since `install-peerdeps` doesn't have a flag to pin the exact version of the installed peer dependencies it's advisable to pin the installed versions in `package.json` by hand.

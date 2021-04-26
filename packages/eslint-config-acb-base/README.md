@@ -11,7 +11,7 @@ The plugin requires `eslint`, `babel-eslint`, and the following other packages:
 - `eslint-plugin-import`
 
 ```shell
-$ npm install-peerdeps -D @acolorbright/eslint-config-acb-base && npm install -DE @acolorbright/eslint-config-acb-base@latest
+$ npx install-peerdeps -D @acolorbright/eslint-config-acb-base && npm install -DE @acolorbright/eslint-config-acb-base@latest
 ```
 
 Then add `"extends": "acb-base"` to your `.eslintrc` file.
