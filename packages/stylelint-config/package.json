@@ -1,7 +1,7 @@
 {
-  "name": "@acolorbright/stylelint-config-property-sort-order-acb",
-  "version": "1.0.1",
-  "description": "Stylelint config for property sort ordering and grouping",
+  "name": "@acolorbright/stylelint-config",
+  "version": "1.0.2",
+  "description": "Stylelint config for ACB",
   "main": "index.js",
   "scripts": {
     "test": "eslint .",
@@ -15,14 +15,14 @@
   "peerDependencies": {
     "stylelint": "13.x"
   },
+  "dependencies": {
+    "@acolorbright/stylelint-config-property-sort-order-acb": "^1.0.1",
+    "stylelint-config-recommended": "4.0.0"
+  },
   "devDependencies": {
     "@acolorbright/eslint-config-acb-base": "^1.0.1",
     "eslint": "7.24.0",
     "eslint-plugin-extra-rules": "0.8.1",
     "eslint-plugin-import": "2.22.1"
-  },
-  "dependencies": {
-    "css-property-sort-order-smacss": "2.1.3",
-    "stylelint-config-property-sort-order-smacss": "7.0.0"
   }
 }
