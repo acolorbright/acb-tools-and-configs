@@ -14,7 +14,7 @@ The plugin requires `eslint`, `babel-eslint`, and the following other packages:
 - `eslint-plugin-react`
 - `eslint-plugin-react-hooks`
 
-If you don't need React, see [eslint-config](https://github.com/acolorbright/acb-tools-and-config/tree/main/packages/eslint-config). For React with TypeScript see [eslint-config-acb-ts-react](https://github.com/acolorbright/acb-tools-and-config/tree/main/packages/eslint-config-acb-ts-react).
+If you don't need React, see [eslint-config](https://github.com/acolorbright/acb-tools-and-config/tree/main/packages/eslint-config). For React with TypeScript see [eslint-config-ts-react](https://github.com/acolorbright/acb-tools-and-config/tree/main/packages/eslint-config-ts-react).
 
 ```shell
 $ npx install-peerdeps -D @acolorbright/eslint-config && npm install -DE @acolorbright/eslint-config@latest

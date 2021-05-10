@@ -1,4 +1,4 @@
-# stylelint-config-acb
+# stylelint-config
 
 Stylelint config providing ACB's standard linting setup for styles.
 
