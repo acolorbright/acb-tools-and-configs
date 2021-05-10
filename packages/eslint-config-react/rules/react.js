@@ -1,5 +1,5 @@
 const assign = require('object.assign');
-const baseStyleRules = require('@acolorbright/eslint-config-acb-base/rules/style').rules;
+const baseStyleRules = require('@acolorbright/eslint-config/rules/style').rules;
 
 const dangleRules = baseStyleRules['no-underscore-dangle'];
 
