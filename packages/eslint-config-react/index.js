@@ -8,6 +8,9 @@ module.exports = {
     jest: true,
     node: true,
   },
+  globals: {
+    React: 'readonly',
+  },
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: 'module',
