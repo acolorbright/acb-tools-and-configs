@@ -5,8 +5,10 @@ This plugin provides ACB's base TypeScript `.eslintrc` (without React plugins) a
 
 ## Installation
 
-The plugin requires `eslint`, `@typescript-eslint/recommended` and the following other packages:
+The plugin requires `eslint`, `typescript` and the following other packages:
 
+- `@typescript-eslint/eslint-plugin`
+- `@typescript-eslint/parser`
 - `eslint-plugin-extra-rules`
 - `eslint-plugin-import`
 
