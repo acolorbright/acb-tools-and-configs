@@ -13,10 +13,9 @@ module.exports = {
     sourceType: 'module',
   },
   extends: [
-    '@acolorbright/eslint-config',
+    '@acolorbright/eslint-config-ts',
     'eslint-config-prettier/react',
     './rules/prettier',
-    './rules/typescript',
     './rules/react',
     './rules/react-a11y',
     './rules/react-hooks',
