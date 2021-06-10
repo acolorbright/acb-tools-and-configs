@@ -4,8 +4,10 @@ A webpack loader to transform a CSS module object with additional BEM features
 
 ## Install
 
+This CSS loader depends on `webpack` and `css-loader` to work.
+
 ```sh
-npm install -DE @acolorbright/css-module-bem-loader
+npx install-peerdeps -D @acolorbright/css-module-bem-loader && npm install -DE @acolorbright/css-module-bem-loader
 ```
 
 ## Configure
