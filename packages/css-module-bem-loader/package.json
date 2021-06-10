@@ -20,6 +20,9 @@
     "test": "jest",
     "test:dev": "jest --watchAll"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "bugs": {
     "url": "https://github.com/acolorbright/acb-tools-and-configs/issues"
   },
