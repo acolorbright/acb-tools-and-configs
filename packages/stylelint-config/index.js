@@ -19,7 +19,7 @@ module.exports = {
     'declaration-block-semicolon-space-before': 'never',
     'function-comma-space-before': 'never',
     'function-comma-space-after': 'always-single-line',
-    'function-parentheses-space-inside': 'always-single-line',
+    'function-parentheses-space-inside': 'never-single-line',
     'function-whitespace-after': 'always',
     'length-zero-no-unit': true,
     'max-empty-lines': 1,
