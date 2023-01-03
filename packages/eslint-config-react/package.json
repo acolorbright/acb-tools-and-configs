@@ -27,7 +27,7 @@
 	},
 	"dependencies": {
 		"@acolorbright/eslint-config": "^3.0.2",
-		"object.assign": "4.1.2"
+		"object.assign": "4.1.4"
 	},
 	"peerDependencies": {
 		"@babel/core": "7.x",
