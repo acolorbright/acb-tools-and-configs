@@ -12,6 +12,6 @@
 		"packages/stylelint-config-property-sort-order"
 	],
 	"devDependencies": {
-		"lerna": "7.1.1"
+		"lerna": "7.4.2"
 	}
 }
