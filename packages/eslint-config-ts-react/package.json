@@ -39,7 +39,7 @@
 		"eslint-plugin-jsx-a11y": "6.x",
 		"eslint-plugin-react": "7.x",
 		"eslint-plugin-react-hooks": "4.x",
-		"eslint-plugin-simple-import-sort": "7.x || 8.x || 9.x || 10.x",
+		"eslint-plugin-simple-import-sort": "7.x || 8.x || 9.x || 10.x || 12.x",
 		"typescript": "4.x || 5.x"
 	},
 	"devDependencies": {
@@ -52,7 +52,7 @@
 		"eslint-plugin-jsx-a11y": "6.8.0",
 		"eslint-plugin-react": "7.33.0",
 		"eslint-plugin-react-hooks": "4.6.0",
-		"eslint-plugin-simple-import-sort": "10.0.0",
+		"eslint-plugin-simple-import-sort": "12.0.0",
 		"typescript": "5.1.3"
 	}
 }
