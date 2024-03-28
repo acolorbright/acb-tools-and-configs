@@ -25,7 +25,7 @@
 	"dependencies": {
 		"stylelint-config-property-sort-order-smacss": "10.0.0",
 		"stylelint-config-recommended": "13.0.0",
-		"stylelint-order": "6.0.3"
+		"stylelint-order": "6.0.4"
 	},
 	"devDependencies": {
 		"@acolorbright/eslint-config": "^3.3.0",
