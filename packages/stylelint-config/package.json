@@ -1,6 +1,6 @@
 {
 	"name": "@acolorbright/stylelint-config",
-	"version": "5.2.0",
+	"version": "5.2.1",
 	"description": "Stylelint config for ACB",
 	"main": "index.js",
 	"scripts": {
