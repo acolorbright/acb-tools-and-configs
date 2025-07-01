@@ -36,7 +36,7 @@
 		"@babel/core": "7.x",
 		"@babel/eslint-parser": "7.x",
 		"@mizdra/eslint-plugin-layout-shift": "1.0.1",
-		"eslint": "7.x || 8.x",
+		"eslint": "7.x || 8.x || 9.x",
 		"eslint-plugin-extra-rules": "^0.8",
 		"eslint-plugin-import": "^2.22.1"
 	},
@@ -44,7 +44,7 @@
 		"@babel/core": "7.25.2",
 		"@babel/eslint-parser": "7.25.1",
 		"@mizdra/eslint-plugin-layout-shift": "1.0.1",
-		"eslint": "8.57.0",
+		"eslint": "9.30.1",
 		"eslint-plugin-extra-rules": "0.8.1",
 		"eslint-plugin-import": "2.30.0"
 	}
