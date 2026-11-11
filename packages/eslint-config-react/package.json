@@ -29,8 +29,8 @@
 		"@acolorbright/eslint-config": "^3.3.3"
 	},
 	"peerDependencies": {
-		"@babel/core": "7.x",
-		"@babel/eslint-parser": "7.x",
+		"@babel/core": "7.x || 8.x",
+		"@babel/eslint-parser": "7.x || 8.x",
 		"@mizdra/eslint-plugin-layout-shift": "1.0.1",
 		"eslint": "7.x || 8.x",
 		"eslint-plugin-extra-rules": "^0.8",
@@ -43,7 +43,7 @@
 	},
 	"devDependencies": {
 		"@babel/core": "7.25.2",
-		"@babel/eslint-parser": "7.25.1",
+		"@babel/eslint-parser": "8.1.2",
 		"@mizdra/eslint-plugin-layout-shift": "1.0.1",
 		"eslint": "8.57.0",
 		"eslint-plugin-extra-rules": "0.8.1",
